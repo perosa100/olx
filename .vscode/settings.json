@@ -1,0 +1,23 @@
+{
+  "git.enabled": false,
+  "files.exclude": {
+    "node_modules": true,
+    "index.js": true,
+    "tsconfig.json": true,
+    "__tests__": true,
+    ".gitignore": true,
+    "package-lock.json": true,
+    ".prettierrc.js": true,
+    "yarn-error.log": true,
+    ".watchmanconfig": true,
+    ".buckconfig": true,
+    "app.json": true,
+    "android": true,
+    "ios": true,
+    "metro.config.js": true,
+    "babel.config.js": true,
+    "src/react-app-env.d.ts": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "compile-hero.disable-compile-files-on-did-save-code": true
+}
